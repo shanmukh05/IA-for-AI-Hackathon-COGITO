@@ -1,0 +1,174 @@
+/*NEWWW*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: linear-gradient(to top right, darkmagenta 0%, hotpink 100%);
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	overflow: visible;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 260px;
+	border-radius: 3px;
+	box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	overflow: visible;
+}
+
+.title {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #999;
+	text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+	font-size: 10px;
+	font-weight: 300;
+	color: #666;
+}
+
+.dropzone {
+	width: 100px;
+	height: 80px;
+	border: 1px dashed #999;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.upload-icon {
+	margin: 25px 2px 2px 2px;
+}
+
+.upload-input {
+	position: relative;
+	top: -62px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.btn {
+	display: block;
+	width: 140px;
+	height: 40px;
+	background: darkmagenta;
+	color: #fff;
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0 3px 0 0 hotpink;
+	transition: all 0.3s ease-in-out;
+	font-size: 14px;
+}
+
+.btn:hover {
+	background: rebeccapurple;
+	box-shadow: 0 3px 0 0 deeppink;
+}
+
+
+#inputbtn{
+    text-align: center;
+}
+
+#thefile {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+
+#canvas {
+    position: fixed;
+    left: 450px;
+    bottom: -2px;
+    width: 100%;
+    height: 100%;
+}
+
+audio{
+  position: fixed;
+  left: 10px;
+  bottom: -60px;
+  width: calc(100% - 20px);
+}
+
+.right{
+	background-image: url("/static/images/beats.jpg");
+    background-size: cover;
+}
+
+.result {
+	position: absolute;
+	top: 20%; /*20%*/
+	left : 250px;
+	transform: translate(-50%, -50%);
+	width: 370px;
+	height: 260px;
+	border-radius: 3px;
+	box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	overflow: visible;
+	background-image: url("/static/images/result.png");
+    background-size: cover;
+}
+
+.probs {
+	position: absolute;
+	top: 70%;
+	left : 250px;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 330px;
+	border-radius: 3px;
+	box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	overflow: visible;
+	background-image: url("/static/images/probs_temp.png");
+    background-size: cover;
+}
+
+.btn-primary{
+    border-color: #ff3f3f !important;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(230, 16, 16, 0.25);
+    background-color: #ff3f3f !important;
+    border-color: #ff3f3f !important;
+	width : 250px;
+}
+
+.button{
+	position: fixed;
+    left: 650px;
+    top: 600px;
+    width: 100%;
+    height: 100%;
+}
