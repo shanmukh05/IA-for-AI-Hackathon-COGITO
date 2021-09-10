@@ -1,0 +1,15 @@
+             Machine Learning Model
+
+- Run "mp32wav.py" to convert mp3 to wav file.
+- Use "IA for AI.ipynb" to train model and testing new models and preprocessing methods.
+
+             Application
+
+- create new "conda" environment (preferable)
+
+- Install the requirements using "requirements.txt" file present in "sites" folder.
+  $pip install requirements.txt
+
+- Run "app.py" file 
+
+- Open the following site "http://127.0.0.1:5000/" (Local Host)
