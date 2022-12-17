@@ -1,6 +1,6 @@
 # IA-for-AI-Hackathon-COGITO
 My approach to the Hackathon (ML model and Web Application)
-
+[Checkout details here](https://www.hackerearth.com/challenges/competitive/ia-for-ai/)
 # Folder Structure:
 
 Once the zip file is unzipped following structure can be seen
